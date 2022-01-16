@@ -3,7 +3,7 @@ let pictureOne = new Picture (
     'pictureOne', 
     'https://img.vixdata.io/pd/jpg-large/es/sites/default/files/a/andy_warhol-5.jpg',
     'Díptico de Marilyn',
-    '19/04/2000',
+    'En el año 1962',
     'Andy Warhol',
     'Tras la muerte de Marilyn Monroe en 1962, Warhol empezó a trabajar en una serigrafía de su rostro, usando una fotografía promocional del filme Niágara (1953). El resultado fueron 50 retratos suyos, la mitad de la izquierda a todo color y los demás en un blanco y negro que se desvanece en lo que representa el culto a la celebridad y la muerte.'
 );
@@ -12,7 +12,7 @@ let pictureTwo = new Picture (
     'pictureTwo', 
     'https://img.vixdata.io/pd/jpg-large/es/sites/default/files/r/roy_lichtenstein_whaam.jpg',
     'Whaam!',
-    '30/10/2021',
+    'En el año 1963',
     'Roy Lichtenstein',
     'Esta imagen parodia a la vez que documenta la imagen del héroe americano moderno publicada en los cómics de los 70. El uso de viñetas de historietas se convirtió en un sello particular de Lichtenstein y esta es su obra más famosa.'
 );
@@ -35,6 +35,13 @@ let pictureFour = new Picture (
     'La obra consiste en un collage de imágenes tomadas de revistas americanas para definir la creciente sociedad de consumo a mediados de los 50. El cuadro se convirtió en el ícono del Pop Art y representaba la conciencia posguerra.'
 );
 
+// Here call the function to insert the image in the slider 
+// pictureOne.insertElement();
+// pictureTwo.insertElement();
+// pictureThree.insertElement();
+// pictureFour.insertElement();
+
+// Here call the function to insert the data in the HTML
 pictureOne.setElementsInHTML();
 pictureTwo.setElementsInHTML();
 pictureThree.setElementsInHTML();

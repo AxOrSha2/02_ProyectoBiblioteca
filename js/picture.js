@@ -55,4 +55,13 @@ class Picture {
             + " de nombre: " + this.pictureName);
     }
 
+    // TODO 
+    insertElement(){
+        let id = this.pictureID;
+        let src = this.pictureSRC;
+
+        document.getElementById("slider-images").innerHTML = '<li><img id="'+id+'" src="'+src+'" alt=""></li>';
+
+    }
+
 };
