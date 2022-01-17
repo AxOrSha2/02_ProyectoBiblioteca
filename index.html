@@ -1,57 +1,148 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/style.css">
     <title>Museo</title>
 </head>
+
 <body class="container">
     <section class="banner">
         <img src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/a/andy_warhol-6.jpg" alt="">
         <hr>
         <h1>Pinturas POP</h1>
         <hr>
-        <h3>Instrucciones</h3>
+        <h2>Descripción del Museo</h2>
         <p>
-            Para ver detalles de las pinturas como el nombre y quien lo ha creado, acerca el mouse a la imagen y se te mostrará todos los detalles de aquella imágen.
+            En este museo se tiene como objetivo mostrar las obras POP más conocidas o aquellas que hayan generado un
+            gran impacto en el mundo, esto de la forma más interactiva posible, como se puede mostrar en las
+            instrucciones dispuestas con anterioridad.
         </p>
         <hr>
-        <h3>Descripción del Museo</h3>
-        <p>
-            En este museo se tiene como objetivo mostrar las obras POP más conocidas o aquellas que hayan generado un gran impacto en el mundo, esto de la forma más interactiva posible, como se puede mostrar en las instrucciones dispuestas con anterioridad.
-        </p>
-        <hr>
-    </section>
-    <div>
-        <section class="card">
-            <h1>Los cuadros se muestran a continuación</h1>
-            <hr>
+        <div class="card description">
             <br>
-            <section class="auto-slider">
-                <ul id="slider-images">
-                    <li>
-                        <img id="pictureOne" src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/a/andy_warhol-5.jpg" alt="">
-                    </li>
-                    <li>
-                        <img id="pictureTwo" src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/r/roy_lichtenstein_whaam.jpg" alt="">
-                    </li>
-                    <li>
-                        <img id="pictureThree" src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/h/hockney-a_bigger_splash.jpg" alt="">
-                    </li>
-                    <li>
-                        <img id="pictureFour" src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/q/que-es-lo-que-hace-a-los-hogares.jpg" alt="">
-                    </li>
-                </ul>
-            </section>
-        </section>
+            <h2>Instrucciones</h2>
+            <p>
+                Para ver detalles de la primera pintura acerca el mouse a la imagen y se te mostrará todos los detalles
+                de aquella imágen.
+            </p>
+            <hr>
+            <p>
+                Para la segunda pintura, si quieres ver los detalles, has clic en la imágen, para desaparecerlos, has
+                doble clic en la misma.
+            </p>
+            <hr>
+            <p>
+                Para la tercera pintura, si quieres verla, debes arrastrar la imágen, para desaparecerlos, arrastra la pintura.
+            </p>
+            <hr>
+            <p id="instructions-four">
+                Para la cuarta pintura, copia estas instrucciones y aparecerán los detalles, para desaparecerlos, has doble
+                clic en la pintura.
+            </p>
+            <hr>
+            <p>
+                Para la quinta pintura, si quieres verla, debes arrastrar la imágen, para desaparecerlos, arrastra la pintura.
+            </p>
+        </div>
+    </section>
+    <!-- <section class="auto-slider">
+        <ul id="slider-images">
+            <li>
+            </li>
+                <img id="pictureOne" src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/a/andy_warhol-5.jpg" alt="">
+            <li>
+                <img id="pictureTwo" src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/r/roy_lichtenstein_whaam.jpg" alt="">
+            </li>
+            <li>
+                <img id="pictureThree" src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/h/hockney-a_bigger_splash.jpg" alt="">
+            </li>
+            <li>
+                <img id="pictureFour" src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/q/que-es-lo-que-hace-a-los-hogares.jpg" alt="">
+            </li>
+        </ul>
+    </section> -->
+    <div id="card-container" class="card-container">
         <section class="card">
-            <h2 id="titlePicture">Título de la obra: </h2>
+            <!-- Primer Cuadro -->
+            <h1 id="titlePictureOne">Título de la obra:</h1>
             <hr>
-            <p id="describePicture">Descripción: </p>
+            <div class="information-container">
+                <img id="One" src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/a/andy_warhol-5.jpg"
+                    alt="">
+                <div class="description">
+                    <p id="authorPictureOne">Autor: </p>
+                    <p id="datePictureOne">Fecha de creación: </p>
+                    <hr>
+                    <p id="describePictureOne">Descripción: </p>
+                </div>
+            </div>
+        </section> <!-- END Primer Cuadro -->
+        <section class="card">
+            <!-- Segundo Cuadro -->
+            <h1 id="titlePictureTwo">Título de la obra:</h1>
             <hr>
-            <p id="authorPicture">Autor: </p>
-            <p id="datePicture">Fecha de creación: </p>
-        </section>
+            <div class="information-container">
+                <img id="Two"
+                    src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/r/roy_lichtenstein_whaam.jpg"
+                    alt="">
+                <div class="description">
+                    <p id="authorPictureTwo">Autor: </p>
+                    <p id="datePictureTwo">Fecha de creación: </p>
+                    <hr>
+                    <p id="describePictureTwo">Descripción: </p>
+                </div>
+            </div>
+        </section> <!-- END Segundo Cuadro -->
+        <section class="card">
+            <!-- Tercer Cuadro -->
+            <h1 id="titlePictureThree">Título de la obra:</h1>
+            <hr>
+            <div class="information-container">
+                <img id="Three"
+                    src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/h/hockney-a_bigger_splash.jpg"
+                    alt="">
+                <div class="description">
+                    <p id="authorPictureThree">Autor: </p>
+                    <p id="datePictureThree">Fecha de creación: </p>
+                    <hr>
+                    <p id="describePictureThree">Descripción: </p>
+                </div>
+            </div>
+        </section> <!-- END Tercer Cuadro -->
+        <section class="card">
+            <!-- Cuarto Cuadro -->
+            <h1 id="titlePictureFour">Título de la obra:</h1>
+            <hr>
+            <div class="information-container">
+                <img id="Four"
+                    src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/q/que-es-lo-que-hace-a-los-hogares.jpg"
+                    alt="">
+                <div class="description">
+                    <p id="authorPictureFour">Autor: </p>
+                    <p id="datePictureFour">Fecha de creación: </p>
+                    <hr>
+                    <p id="describePictureFour">Descripción: </p>
+                </div>
+            </div>
+        </section> <!-- END Cuarto Cuadro -->
+        <section class="card">
+            <!-- Quinto Cuadro -->
+            <h1 id="titlePictureFive">Título de la obra:</h1>
+            <hr>
+            <div class="information-container">
+                <img id="Five"
+                    src="https://cdn.culturagenial.com/es/imagenes/sopa-campbell-s-cke.jpg"
+                    alt="">
+                <div class="description">
+                    <p id="authorPictureFive">Autor: </p>
+                    <p id="datePictureFive">Fecha de creación: </p>
+                    <hr>
+                    <p id="describePictureFive">Descripción: </p>
+                </div>
+            </div>
+        </section> <!-- END Quinto Cuadro -->
     </div>
     <footer>
         <p>Hecha por Cristian Andres Ariza Riaño</p>
@@ -60,4 +151,5 @@
 </body>
 <script src="./js/Picture.js"></script>
 <script src="./js/main.js"></script>
+
 </html>
