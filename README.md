@@ -1,12 +1,5 @@
 # 02_ProyectoBiblioteca
 
-Historia de usuario
+Historias de usuario; estas se encuentran en el siguiente enlace
+https://docs.google.com/document/d/1lQjZw2oEBLR7-1ESi-Ok_A7xrDLf3NdhapXPbFDb1kE/edit?usp=sharing
 
-Historia #1; Ver en un slide las obras
-
-Como: visitante de la web
-
-Quiero que al momento de ingresar a la página, me muestre obras 
-como una presentación que va cambiando sola, y unicamente 
-con ubicar el mouse sobre la imágen me muestre los detalles
-de la misma.
